@@ -34,7 +34,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Step 1: Load the image using cv2.imread()
-image = cv2.imread("Fish.jpg")  
+image = cv2.imread("meow.jpg")  
 
 # Step 2: Create a structuring element (5x5 rectangular)
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
